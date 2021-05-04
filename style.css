@@ -1,0 +1,11 @@
+
+	h1{color:#FF0000;}
+	body{
+	background-color: blue;
+    }
+	*{
+	box-sizing:border-box;
+	margin: 8p;
+	padding: 3p;
+	background-color: green
+	}
