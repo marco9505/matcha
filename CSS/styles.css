@@ -1,0 +1,40 @@
+h1 {
+    color: #025157;
+    font-family: "Orelega One", sans-serif;
+  }
+  
+  .header {
+    /* Un valor para todos los lados
+    // dos valores para arriba y abajo/ derecha-izquierda
+    // cuatro valores de uno en uno, pensando en el sentido del reloj
+    // tres valores: arriba, laterales, abajo*/
+    margin: 20px 10px 10px;
+   /* margin-bottom: 10px;*/
+  }
+  
+
+  .header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 20px;
+  }
+  
+  .logo > img {
+    height: 100%;
+  }
+  
+  .navbar {
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+    margin: 0 5%;
+  }
+  
+  .actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 300;
+  }
